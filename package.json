@@ -1,0 +1,31 @@
+{
+  "name": "eip681",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "ts-mocha test/*",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "tynes",
+  "license": "MIT",
+  "dependencies": {
+    "@ethersproject/abi": "^5.7.0",
+    "@ethersproject/abstract-provider": "^5.7.0",
+    "@ethersproject/bignumber": "^5.7.0",
+    "@ethersproject/bytes": "^5.7.0",
+    "@ethersproject/keccak256": "^5.7.0",
+    "@ethersproject/strings": "^5.7.0"
+  },
+  "devDependencies": {
+    "@ethersproject/providers": "^5.7.2",
+    "@types/expect": "^24.3.0",
+    "@types/mocha": "^10.0.1",
+    "eslint-plugin-prettier": "^4.2.1",
+    "mocha": "^10.2.0",
+    "prettier": "^2.8.1",
+    "ts-mocha": "^10.0.0",
+    "typescript": "^4.9.4"
+  }
+}
